@@ -12,7 +12,13 @@ public final class App {
      * @param args The arguments of the program.
      */
     public static void main(String[] args) {
-        F1 labb1 = new F1();
-        labb1.run();
+        /* F1 labb1 = new F1();
+        labb1.run(); */
+
+        /* F2 labb2 = new F2();
+        labb2.run(); */
+
+        F3 labb3 = new F3();
+        labb3.run();
     }
 }

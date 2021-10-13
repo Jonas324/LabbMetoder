@@ -18,7 +18,10 @@ public final class App {
         /* F2 labb2 = new F2();
         labb2.run(); */
 
-        F3 labb3 = new F3();
-        labb3.run();
+        /* F3 labb3 = new F3();
+        labb3.run(); */
+
+        F4 labb4 = new F4();
+        labb4.run();
     }
 }

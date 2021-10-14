@@ -14,22 +14,27 @@ public class F5 {
             Pattern p = Pattern.compile("[^A-Za-z0-9]");
             Matcher m = p.matcher(pass);
             boolean b = m.find();
+            final String numbers = "1234567890"; 
+            char[] numList = numbers.toCharArray();
+            int count = 0;
 
-            if (b && pass.length() < 8) {
+            if (b && pass.length() < 8 && count > 2) {
                 System.out.println("ogiltigt lösenord");
             } 
-                else{
-
-                    for(int i = 0; i < pass.length(); i++)
-                    if(pass.charAt(i) == ){
-
+            else{
+                for(int i = 0; i < pass.length(); i++){
+                    for(int x = 0; x < numList.length; x++){
+                        if(pass.charAt(i) == numList[x]){
+                            count++;  
+                        }
                     }
-                    else{
+                }
+                if (count >= 2){
                     System.out.println("Lösenord är gilltigt");
                     break;
-                }    
-                }
-            }
+                }      
+            }    
         }
     }
 }
+

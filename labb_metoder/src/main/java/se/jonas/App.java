@@ -24,7 +24,10 @@ public final class App {
         /* F4 labb4 = new F4();
         labb4.run(); */
 
-        F5 labb5 = new F5();
-        labb5.run();
+        /* F5 labb5 = new F5();
+        labb5.run(); */
+
+        F6 labb6 = new F6();
+        labb6.run();
     }
 }

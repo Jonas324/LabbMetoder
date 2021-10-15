@@ -30,7 +30,16 @@ public final class App {
         /* F6 labb6 = new F6();
         labb6.run(); */
 
-        F7 labb7 = new F7();
-        labb7.run();
+        /* System.out.print("Skriv in vilken lön du har fått: ");
+        double salary = Integer.parseInt(System.console().readLine());
+        CalculateTaxesOnSalary labb7 = new CalculateTaxesOnSalary(salary);
+        System.out.println("Skatten är " + labb7.getSalary()); */
+
+        /* F8 labb8 = new F8();
+        labb8.run(); */
+
+        F9 labb9 = new F9();
+        labb9.run();
+        
     }
 }
